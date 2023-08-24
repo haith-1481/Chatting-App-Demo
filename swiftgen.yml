@@ -1,0 +1,18 @@
+#strings:
+#  inputs:
+#  - Resources/Core/en.lproj/Localizable.strings
+#  outputs:
+#    templatePath: custom-strings.stencil
+#    output: Cores/L10n.swift
+#    params:
+#        publicAccess: public
+#        enumName: L10n
+xcassets:
+  inputs:
+    - ChattingAppDemo/Assets.xcassets
+  outputs:
+    - templatePath: assets.stencil
+      output: ChattingAppDemo/Resources/Assets.swift
+      params:
+        publicAccess: public
+        enumName: Assets

@@ -5,6 +5,13 @@ target 'ChattingAppDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
+	pod 'MessageKit'
+  pod 'Alamofire', '~> 5.2'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'SDWebImage'
+  pod 'ProgressHUD'
+
   # Pods for ChattingAppDemo
 
 end

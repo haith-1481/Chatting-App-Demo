@@ -1,0 +1,17 @@
+.DS_Store
+.output
+.scannerwork
+
+Framework/*
+!Framework/*.xcframework
+
+.Trashes
+*.lock
+
+DerivedData/
+build/
+
+*.xccheckout
+*.xuserstate
+xcuserdata/
+Pods
