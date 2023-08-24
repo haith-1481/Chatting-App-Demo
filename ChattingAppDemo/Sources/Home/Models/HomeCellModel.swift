@@ -6,11 +6,20 @@
 //
 
 import Foundation
+import MessageKit
 
-struct HomeCellModel {
+struct HomeCellModel: SenderType {
 	let username: String
 	let id: String
 	let avatarUrl: String
 	let lastMessage: String
 	let date: String
+	
+	var senderId: String {
+		id
+	}
+	
+	var displayName: String {
+		username
+	}
 }

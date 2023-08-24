@@ -22,6 +22,8 @@
 		14AC81092A973B11007745A1 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14AC81072A973B11007745A1 /* HomeTableViewCell.xib */; };
 		14AC810C2A973EEE007745A1 /* HomeCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AC810B2A973EEE007745A1 /* HomeCellModel.swift */; };
 		14AC810E2A9746B5007745A1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AC810D2A9746B5007745A1 /* Constants.swift */; };
+		14AC81112A974D46007745A1 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AC81102A974D46007745A1 /* MessageModel.swift */; };
+		14AC81132A975FAB007745A1 /* BasicAudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AC81122A975FAB007745A1 /* BasicAudioController.swift */; };
 		14C3ACC42A96E8F00057F074 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C3ACC32A96E8F00057F074 /* AppDelegate.swift */; };
 		14C3ACC62A96E8F00057F074 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C3ACC52A96E8F00057F074 /* SceneDelegate.swift */; };
 		14C3ACC82A96E8F00057F074 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C3ACC72A96E8F00057F074 /* ViewController.swift */; };
@@ -57,6 +59,8 @@
 		14AC81072A973B11007745A1 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
 		14AC810B2A973EEE007745A1 /* HomeCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCellModel.swift; sourceTree = "<group>"; };
 		14AC810D2A9746B5007745A1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		14AC81102A974D46007745A1 /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		14AC81122A975FAB007745A1 /* BasicAudioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAudioController.swift; sourceTree = "<group>"; };
 		14C3ACC02A96E8F00057F074 /* ChattingAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChattingAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C3ACC32A96E8F00057F074 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14C3ACC52A96E8F00057F074 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				14AC80E62A97166E007745A1 /* Assets.swift */,
+				14AC81122A975FAB007745A1 /* BasicAudioController.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -157,6 +162,14 @@
 			isa = PBXGroup;
 			children = (
 				14AC810B2A973EEE007745A1 /* HomeCellModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		14AC810F2A974D37007745A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				14AC81102A974D46007745A1 /* MessageModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -235,6 +248,7 @@
 		14C3ACDA2A96EF5B0057F074 /* Chats */ = {
 			isa = PBXGroup;
 			children = (
+				14AC810F2A974D37007745A1 /* Models */,
 				14C3ACE92A96EFE60057F074 /* ChatsViewController.swift */,
 				14C3ACEA2A96EFE60057F074 /* ChatsViewController.xib */,
 				14C3ACED2A96EFFC0057F074 /* ChatsViewModel.swift */,
@@ -392,11 +406,13 @@
 				14AC80F32A971D26007745A1 /* APIResponse.swift in Sources */,
 				14AC81032A9737C7007745A1 /* ProfileViewController.swift in Sources */,
 				14AC810C2A973EEE007745A1 /* HomeCellModel.swift in Sources */,
+				14AC81132A975FAB007745A1 /* BasicAudioController.swift in Sources */,
 				14AC80FC2A972464007745A1 /* UtilityObject.swift in Sources */,
 				14AC80F62A971F67007745A1 /* Credentials.swift in Sources */,
 				14C3ACEB2A96EFE60057F074 /* ChatsViewController.swift in Sources */,
 				14AC80F82A9721DD007745A1 /* Extensions.swift in Sources */,
 				14AC80EE2A971C90007745A1 /* ViewModelType.swift in Sources */,
+				14AC81112A974D46007745A1 /* MessageModel.swift in Sources */,
 				14C3ACC62A96E8F00057F074 /* SceneDelegate.swift in Sources */,
 				14AC80E72A97166E007745A1 /* Assets.swift in Sources */,
 				14AC80FA2A97240F007745A1 /* Enums.swift in Sources */,
