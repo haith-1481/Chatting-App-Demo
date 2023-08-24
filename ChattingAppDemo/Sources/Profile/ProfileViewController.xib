@@ -9,9 +9,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="ChattingAppDemo" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProfileViewController" customModule="ChattingAppDemo" customModuleProvider="target">
             <connections>
-                <outlet property="tableView" destination="L8D-GG-9CJ" id="ITT-kz-cJn"/>
+                <outlet property="logoutBtn" destination="f4g-NP-bnD" id="9hS-Lp-L1u"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -20,20 +20,19 @@
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="L8D-GG-9CJ">
-                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
-                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f4g-NP-bnD">
+                    <rect key="frame" x="157.66666666666666" y="421" width="78" height="35"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Logout"/>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="L8D-GG-9CJ" secondAttribute="bottom" id="Fci-o0-bav"/>
-                <constraint firstItem="L8D-GG-9CJ" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="JaR-2T-oGR"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="L8D-GG-9CJ" secondAttribute="trailing" id="bn5-Bm-Pko"/>
-                <constraint firstItem="L8D-GG-9CJ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="iIj-CW-fWu"/>
+                <constraint firstItem="f4g-NP-bnD" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="aQs-ki-3X5"/>
+                <constraint firstItem="f4g-NP-bnD" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="mUc-3c-0V1"/>
             </constraints>
-            <point key="canvasLocation" x="6" y="21"/>
+            <point key="canvasLocation" x="54" y="20"/>
         </view>
     </objects>
     <resources>

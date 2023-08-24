@@ -48,7 +48,7 @@ extension UITextField {
 	func makeUnderline(_ color: UIColor = UIColor.init(hexString: "#787878")) {
 		let bottomLineName = "bottomLine"
 		if let sublayers = self.layer.sublayers {
-			for layer in sublayers.filter({$0.name == bottomLineName}) {
+			for _ in sublayers.filter({$0.name == bottomLineName}) {
 				//                layer.removeFromSuperlayer()
 				return
 			}

@@ -99,7 +99,8 @@ extension LoginViewController {
 // MARK: --Navigations
 extension LoginViewController {
 	private func toHome() {
-		let vc = HomeViewController()
+//		let vc = HomeViewController()
+		let vc = DashboardTabBarController()
 		navigationController?.pushViewController(vc, animated: true)
 	}
 }

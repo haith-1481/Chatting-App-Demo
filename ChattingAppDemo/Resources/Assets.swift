@@ -37,11 +37,16 @@ public enum Assets {
   public static let redF2CCCC = ColorAsset(name: "redF2CCCC")
   public static let redF46A6A = ColorAsset(name: "redF46A6A")
   public static let redFDF5F5 = ColorAsset(name: "redFDF5F5")
+  public static let icAvatarPlaceholder = ImageAsset(name: "ic_avatar_placeholder").image
+  public static let icChatBlackSmall = ImageAsset(name: "ic_chat_black_small").image
+  public static let icChatWhiteSmall = ImageAsset(name: "ic_chat_white_small").image
   public static let icClose = ImageAsset(name: "ic_close").image
   public static let icEyeClose = ImageAsset(name: "ic_eye_close").image
   public static let icEyeOpen = ImageAsset(name: "ic_eye_open").image
   public static let icLock = ImageAsset(name: "ic_lock").image
   public static let icUser = ImageAsset(name: "ic_user").image
+  public static let icUserBlackSmal = ImageAsset(name: "ic_user_black_smal").image
+  public static let icUserWhiteSmall = ImageAsset(name: "ic_user_white_small").image
 }
 // swiftlint:enable identifier_name line_length nesting type_body_length type_name
 
